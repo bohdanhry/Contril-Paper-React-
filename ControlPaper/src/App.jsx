@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>📘 Address Book</h1>
+      <h1>Address Book</h1>
 
       <AddressForm onAdd={handleAdd} />
       <SearchBar value={searchTerm} onChange={setSearchTerm} />
